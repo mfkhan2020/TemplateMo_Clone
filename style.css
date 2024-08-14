@@ -1,0 +1,198 @@
+.head{
+    
+    height: 500px;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+.navbar{
+    /* background-color: #80d0c7; */
+    color: red;
+}
+.navlogo{
+    width: 30px;
+    height: 30px;
+}
+.navlogolink{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+.adminlogo{
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    border-radius: 50px;
+    background-color: white;
+    float: right;
+    
+}
+.navlink{
+    text-decoration: none;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+
+}
+.headpara1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.headpara2{
+    color: #13547a;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+.searchboxdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800;
+    height: 84px;
+    background-color: white;
+    border-radius: 50px;
+    /* padding: 10px 15px; */
+    
+    
+}
+.searchbox{
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+}
+/* input.searchbox:focus{
+    border: 0px;
+} */
+.searchimg{
+    width: 40px;
+    height: 40px;
+}
+.searchbtn{
+    width: 100px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #80d0c7;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+.cardsmain{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: #80d0c7;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+/* Card 1 Start */
+.cardmain1{
+    border: solid rebeccapurple;
+    width: 340px;
+    display: flexbox;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: white;
+    height: 450px;
+    margin-top: -80px;
+}
+.cardimg1{
+    width: 340px;
+    
+
+}
+.carddig1{
+    background-color: #00B0FF;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    float: right;
+    
+}
+.cardpara1-1{
+    font-size: 30px;
+    font-weight: 900;
+    display: inline;
+}
+.cardpara1-2{
+    font-size: 25px;
+    color: slategray;
+}
+/* Card 1 End */
+
+/* Card 2 Start */
+.cardmain2{
+    border: solid rebeccapurple;
+    width: 600px;
+    height: 450px;
+    display: flexbox;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 25px;
+    background-image: url(images/cardimg2.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #13547a;
+    background-blend-mode: screen;
+    margin-left: 30px;
+    margin-top: -80px;
+}
+
+.carddig2{
+    background-color: #00B0FF;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    float: right;
+    
+}
+
+.cardpara2-1{
+    font-size: 30px;
+    font-weight: 900;
+    display: inline;
+    color: white;
+}
+.cardpara2-2, .cardpara2-3{
+    font-size: 25px;
+    color: white;
+}
+.cardpara2-3{
+    display: inline;
+}
+.cardbtn2{
+    background-color: #80d0c7;
+    border-radius: 25px;
+    width: 150px;
+    height: 60px;
+    padding: 10px 20px;
+    display: block;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.fa-pinterest{
+    background-color: #00B0FF;
+    color: red;
+    border: solid #00B0FF;
+    
+}
+/* Card 2 End */
